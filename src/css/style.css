@@ -92,4 +92,44 @@ img {
     width: 90px;
   }
 }
+
+.hero {
+  padding: 50px 0;
+}
+
+.hero-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-right: 140xp;
+}
+
+.hero-text__title {
+  font-size: 41px;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 25px;
+}
+
+.hero-text__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hero-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
