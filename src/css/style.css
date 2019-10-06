@@ -1,5 +1,22 @@
+@font-face {
+  font-family: 'Sans Sans Light';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Sans Sans Light', sans-serif;
+  font-weight: 300;
 }
 
 img {
@@ -75,9 +92,10 @@ img {
   display: inline-block;
   color: #333333;
   font-size: 20px;
-  font-weight: 400;
   text-decoration: none;
   margin-top: 10px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -116,10 +134,11 @@ img {
   font-size: 41px;
   font-weight: 400;
   line-height: 55px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
+  font-family: 'Museo Sans Light';
 }
 
-.hero-text__subtitle\ {
+.hero-text__subtitle {
   display: inline-block;
   font-size: 20px;
   font-weight: 500;
