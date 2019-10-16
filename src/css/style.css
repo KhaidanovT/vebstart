@@ -65,6 +65,9 @@ img {
 .arrows__left:hover, .arrows__right:hover {
   cursor: pointer; }
 
+.error {
+  border: 1px solid red; }
+
 .navbar {
   padding: 8px 0px; }
   .navbar-block {
@@ -429,5 +432,34 @@ img {
       flex-direction: column; }
     .brif__form {
       margin-top: 80px; } }
+.footer {
+  position: relative; }
+
+.map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%; }
+
+.contacts {
+  flex-basis: 50%;
+  padding-top: 100px;
+  padding-left: 200px; }
+  .contacts__title {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 100px;
+    font-family: 'Museo Sans Bold', sans-serif;
+    font-weight: 700; }
+  .contacts-block {
+    display: flex;
+    justify-content: flex-end; }
+  .contacts-list {
+    padding: 0;
+    list-style: none; }
+    .contacts-list__item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 39px; }
 
 /*# sourceMappingURL=style.css.map */
