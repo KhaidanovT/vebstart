@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ремонт квартир</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-block">
+        <div class="navbar__logo">
+          <img src="img/logo.png" alt="Логотип">
+        </div>
+        <div class="navbar__info">
+          <div class="navbar__contacts">
+            <span class="navbar__address">
+              Калуга, Москва, МО
+            </span>
+            <a href="tel:+7(495)42-251-31" class="navbar__phone">+7(495)42-251-31</a>
+          </div>
+          <button class="button navbar__button" id="button">
+            Перезвоните мне
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-block">
+          <div class="hero-text">
+            <h1 class="hero-text__title">
+              Внутреняя отделка помещения "под ключ"
+            </h1>
+            <span class="hero-text__subtitle">
+              с гарантией качества, прописанной в договоре
+            </span>
+            <ul class="hero-list">
+              <li class="hero-list__item">
+                <img class="hero-list__image" src="img/hero-1/paint-board-and-brush-1.jpg" alt=""></img>
+                <span class="hero-list__text">Точно соблюдаем сроки</span>
+              </li>
+              <li class="hero-list__item">
+                <img class="hero-list__image" src="./img/hero-1/calculator-1.jpg" alt=""></img>
+                <span class="hero-list__text">Расчитаем смету на работу и материалы в день обращения</span>
+              </li>
+              <li class="hero-list__item">
+                <img class="hero-list__image" src="./img/hero-1/paint-board-and-brush.png" alt=""></img>
+                <span class="hero-list__text">Предложем более 100 вариантов исполнения дизайна вашего жилья</span>
+              </li>
+            </ul>
+          </div>
+          <div class="hero-image">
+            <img src="./img/hero-1/hero-img.png" alt="План квартиры">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offer section">
+      <div class="container">
+        <div class="offer-block">
+          <h2 class="section-title offer__title">
+            Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!
+          </h2>
+          <span class="section__subtitle offer__subtitle">
+            Оставте заявку на разработку бесплатного дизайн-проекта!
+          </span>
+          <form action="mail.php" method="POST" class="form offer__form">
+            <input type="text" name="username" class="input offer__input" placeholder="Ваше имя">
+            <input type="tel" name="userphone" class="input offer__input" placeholder="Ваш телефон">
+            <button class="button offer__button">Получить бесплатный дизайн-проект</button>
+            <span class="offer__suptitle">
+              <div class="suptitle">Наш менеджер перезвонит вам в течении 60 секунд</div>
+              <div class="suptitle">или свяжитесь с нами сами<br>+7(495)42-251-31</div>
+            </span>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="container">
+        <h2 class="section-title portfolio__title">
+          Работая с 2007 года, мы сделали более 500 ремонтов в квартирых и домах
+        </h2>
+        <div class="slider">
+          <div class="slider__item"><img class="slider__image" src="img/portfolio/Слой 20.jpg" alt=""></div>
+          <div class="slider__item"><img class="slider__image" src="img/portfolio/Слой 21.jpg" alt=""></div>
+          <div class="slider__item"><img class="slider__image" src="img/portfolio/Слой 22.jpg" alt=""></div>
+          <div class="slider__item"><img class="slider__image" src="img/portfolio/Слой 20.jpg" alt=""></div>
+          <div class="slider__item"><img class="slider__image" src="img/portfolio/Слой 21.jpg" alt=""></div>
+          <div class="slider__item"><img class="slider__image" src="img/portfolio/Слой 22.jpg" alt=""></div>
+        </div>
+        <div class="arrows portfolio__arrows">
+          <div class="arrows__left">
+            <img src="img/portfolio/left-arrow (3).png" alt="" class="">
+          </div>
+          <div class="arrows__right">
+            <img src="img/portfolio/left-arrow (3) копия.png" alt="" class="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section price">
+      <div class="container">
+        <h2 class="section-title price__title">
+          У нас очень гибкая система скидок на комплексные работы!
+        </h2>
+        <span class="section-subtitle price__subtitle">
+          Прайс на наши услуги
+        </span>
+        <div class="cards">
+          <div class=" card  price__card">
+            <div class="card__image"><img src="img/portfolio/Слой 22.jpg" alt=""></div>
+            <div class="card__text">
+              <h4 class="card__title">Ремонт ванных комнат и с/у</h4>
+              <a href="" class="card__link">Узнать цены</a>
+            </div>
+          </div>
+          <div class=" card  price__card">
+            <div class="card__image"><img src="img/portfolio/Слой 21.jpg" alt=""></div>
+            <div class="card__text">
+              <h4 class="card__title">Ремонт комнат и квартир</h4>
+              <a href="" class="card__link">Узнать цены</a>
+            </div>
+          </div>
+          <div class=" card  price__card">
+            <div class="card__image"><img src="img/portfolio/Слой 20.jpg" alt=""></div>
+            <div class="card__text">
+              <h4 class="card__title">Отделка офисных помещений</h4>
+              <a href="" class="card__link">Узнать цены</a>
+            </div>
+          </div>
+          <div class=" card  price__card">
+            <div class="card__image"><img src="img/portfolio/Слой 22.jpg" alt=""></div>
+            <div class="card__text">
+              <h4 class="card__title">Ремонт в новостройках</h4>
+              <a href="" class="card__link">Узнать цены</a>
+            </div>
+          </div>
+          <div class=" card  price__card">
+            <div class="card__image"><img src="img/portfolio/Слой 21.jpg" alt=""></div>
+            <div class="card__text">
+              <h4 class="card__title">Ремонт кухонь</h4>
+              <a href="" class="card__link">Узнать цены</a>
+            </div>
+          </div>
+          <div class=" card  price__card">
+            <div class="card__image"><img src="img/portfolio/Слой 20.jpg" alt=""></div>
+            <div class="card__text">
+              <h4 class="card__title">Ремонт дач и коттеджей</h4>
+              <a href="" class="card__link">Узнать цены</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section brif">
+      <div class="container">
+        <div class="brif-block">
+          <div class="interview brif__interview">
+            <h3 class="interview__title">Мы можем озвучить вам примерную стоимость работы и материалов по телефону</h3>
+            <span class="interview__subtitle">Для этого нужно ответить на 4 вопроса:</span>
+            <ul class="interview-list">
+              <li class="interview-list__item">
+                <span class="interview-list__counter">1</span>
+                <span class="interview-list__text">Какова площадь помещения?</span>
+              </li>
+              <li class="interview-list__item">
+                <span class="interview-list__counter">2</span>
+                <span class="interview-list__text">У вас новостройка или вторичное жилье?</span>
+              </li>
+              <li class="interview-list__item">
+                <span class="interview-list__counter">3</span>
+                <span class="interview-list__text">Где находится помещение, в котром будет производиться ремонт?</span>
+              </li>
+              <li class="interview-list__item">
+                <span class="interview-list__counter">4</span>
+                <span class="interview-list__text">Назначение помещения?</span>
+              </li>
+            </ul>
+          </div>
+          <div class="form brif__form">
+            <h3 class="form__title">Оставьте заявку на бесплатный рачет ремонта по телефону</h3>
+            <span class="form__subtitle">Для этого заполните форму нижу</span>
+            <form action="#" id="brif-form">
+              <input type="text" name="username" class="input brif__input" placeholder="Ваше имя">
+              <input type="tel" name="phone" class="input brif__input" placeholder="Ваш телефон">
+              <input type="email" name="email" class="input brif__input" placeholder="Ваш email">
+              <button class="button brif__button">Узнать стоимость</button>
+              <span class="form__description">Мы перевзвоним вам в течение 60 секунд</span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer ">
+    <div class="map" id="map">
+      <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa57f93b7b5c103e8bc5ad9788f43346b4fa51eac7af6c7461d757c0d895940a0&amp;width=100%25&amp;height=640&amp;lang=ru_RU&amp;scroll=false">
+      </script>
+    </div>
+    <div class="container">
+      <div class="contacts-block">
+        <div class="contacts">
+          <h3 class="contacts__title">Приезжайте к нам в гости! Проконсультируем вас по всем вопросам ремонта</h3>
+          <ul class="contacts-list">
+            <li class="contacts-list__item">
+              <span class="contacts-list__text">
+                г.Москва<br> ул.Ленина, д.10, корпус 2, оф.308
+              </span>
+            </li>
+            <li class="contacts-list__item">
+              <span class="contacts-list__text">
+                Режим работы:<br> с 9:00 до 18:00
+              </span>
+            </li>
+            <li class="contacts-list__item">
+              <span class="contacts-list__text">
+                <a href="tel:+7(495)42-251-31"> +7 (495) 42-251-31</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <div class="modal" id="modal">
+    <div class="modal-dialog">
+      <div class="modal-answer">
+        <button class="modal-answer__close" id="close">&times;</button>
+        <h2 class="modal-title">Узнайте точную стоимость ремонта по телефону</h2>
+        <span class="modal-subtitle">Заполните поля ниже - мы свяжимся с вами позже</span>
+        <input type="text" class="input offer__input" placeholder="Ваше имя">
+        <input type="tel" class="input offer__input" placeholder="Ваш телефон">
+        <button class="button modal-button">Узнайте стоимость</button>
+        <span class="modal-suptitle">Или вы можете перезвоните нам сами по телефону</span>
+        <h2 class="modal-phone">+7 (8182) 42-51-31</h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#brif-form').validate({
+        rules: {
+          username: {
+            required: true,
+            minlength: 2
+          }
+        },
+        email: {
+          required: true
+        },
+        messages: {
+          name: {
+            required: "Укажите имя",
+            minlength: jQuery.validator.format("Осталось символов: {0}")
+          }
+        }
+      });
+      $('.slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: $('.arrows__left'),
+        nextArrow: $('.arrows__right'),
+      });
+    });
+  </script>
+
+</body>
+
+</html>
